@@ -1,4 +1,4 @@
-from board.tile import Tile
+from board import Tile
 from pieces import bishop
 from pieces import king
 from pieces import knight
@@ -9,7 +9,7 @@ from pieces import rook
 
 
 
-class Board:
+class board:
 
     gameTiles = {}
     enPassPawn = None
